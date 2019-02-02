@@ -37,6 +37,10 @@ alias gip='git push'
 
 export GIT_EDITOR=vim
 
+# -----------------------------------
+# SSH
+# -----------------------------------
+alias sshAgent="eval `ssh-agent`"
 
 # -----------------------------------
 # Command prompt
