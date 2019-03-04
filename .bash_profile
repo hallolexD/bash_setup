@@ -42,6 +42,9 @@ export GIT_EDITOR=vim
 # -----------------------------------
 alias sshAgent="eval `ssh-agent`"
 
+# colors --------------------------
+# LS_COLORS=$LS_COLORS:'di=1;35:' ; export LS_COLORS
+
 # -----------------------------------
 # Command prompt
 # -----------------------------------
