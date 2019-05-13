@@ -40,9 +40,14 @@ export GIT_EDITOR=vim
 # -----------------------------------
 # SSH
 # -----------------------------------
-alias sshAgent="eval `ssh-agent`"
+# alias sshAgent="eval `ssh-agent`"
+
+# -----------------------------------
+# SHELL
+# -----------------------------------
 
 # colors --------------------------
+# Change folder colors to magenta
 # LS_COLORS=$LS_COLORS:'di=1;35:' ; export LS_COLORS
 
 # -----------------------------------
