@@ -46,6 +46,9 @@ export GIT_EDITOR=vim
 # SHELL
 # -----------------------------------
 
+# Activate z command
+. ~/.z.sh
+
 # colors --------------------------
 # Change folder colors to magenta
 # LS_COLORS=$LS_COLORS:'di=1;35:' ; export LS_COLORS
@@ -55,6 +58,5 @@ export GIT_EDITOR=vim
 # -----------------------------------
 #PS1_OLD = '\h:\W \u$ '
 PS1='\n@\h: \[\033[0;34m\]\w/ \[\033[1;95m\]$(__git_ps1 "(%s)")  \n\[\033[0;32m\]\u \[\033[0;33m\]->\[\033[00m\] '
-
 # On some systems/shells/devices you might want to change the 34m (blue) color option to 36m (cyan) for better readability
 
